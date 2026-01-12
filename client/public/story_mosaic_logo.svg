@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with paper-like yellowish white -->
+  <circle cx="100" cy="100" r="95" fill="#F4EFE6"/>
+  
+  <!-- Central starting point -->
+  <circle cx="100" cy="55" r="12" fill="#6B7F62"/>
+  
+  <!-- Branch 1 - Left path -->
+  <line x1="100" y1="67" x2="70" y2="100" stroke="#8B9D83" stroke-width="5" stroke-linecap="round"/>
+  <rect x="55" y="100" width="30" height="30" fill="#8B9D83" rx="4"/>
+  
+  <!-- Branch 2 - Center path -->
+  <line x1="100" y1="67" x2="100" y2="100" stroke="#9CAE91" stroke-width="5" stroke-linecap="round"/>
+  <rect x="85" y="100" width="30" height="30" fill="#9CAE91" rx="4"/>
+  
+  <!-- Branch 3 - Right path -->
+  <line x1="100" y1="67" x2="130" y2="100" stroke="#B4C4AA" stroke-width="5" stroke-linecap="round"/>
+  <rect x="115" y="100" width="30" height="30" fill="#B4C4AA" rx="4"/>
+  
+  <!-- Second level branches -->
+  <line x1="70" y1="130" x2="60" y2="148" stroke="#A8B89F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="153" r="9" fill="#A8B89F"/>
+  
+  <line x1="100" y1="130" x2="100" y2="148" stroke="#7A8E71" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="153" r="9" fill="#7A8E71"/>
+  
+  <line x1="130" y1="130" x2="140" y2="148" stroke="#94A78A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="140" cy="153" r="9" fill="#94A78A"/>
+</svg>

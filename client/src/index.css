@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+
+/* themes */
+@theme {
+    /* custom fonts */
+    --font-body: "Gowun Batang", serif;
+    --font-rating: "Gelasio", serif;
+    --font-book-title: "Gentium Book Plus", serif;
+    /* custom colors */
+    --color-paper: #FFFDF6;
+    --color-below-paper: #C0CABD;
+    --color-add-btn: #5E815E;
+    --color-danger: #AC7373;
+    --color-secondary-btn: #8A907D;
+    --color-tag-line: #8A907D;
+    --color-tag-fill: #6A934B;
+    --color-light-ink: #FFFDF8;
+    --color-dark-ink: #2B2B2B;
+    --color-faint-ink: #7A7A7A;
+    --color-node-paragraph: #FFFEF7;
+    --color-connector: #8A907D;
+    --color-search: #FDFDFD;
+}
+
+
+
+/* Global font utilities and defaults */
+/* Provide utility classes used across the app (components reference these class names) */
+.font-body {
+    font-family: var(--font-body) !important;
+}
+
+.font-book-title {
+    font-family: var(--font-book-title) !important;
+}
+
+/* Apply sensible defaults for semantic elements */
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    color: var(--color-dark-ink);
+    font-family: var(--font-body);
+}
+
+/* Make all headings use the book-title font by default */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-book-title);
+}
+
+/* Ensure paragraphs, list items and general content use body font */
+p, li, a, span, label, input, textarea, div, button, .text-body {
+    font-family: var(--font-body);
+}
+
+/* Small helper: apply title font for story titles if component uses .story-title */
+.story-title, .chapter-title, .heading, .title {
+    font-family: var(--font-book-title);
+}
+
