@@ -2,6 +2,8 @@
 
 A web-based collaboration platform to let multiple writers participate in the writing of Choose-Your-Own-Adventure stories.
 
+<img alt="Image for Story Editing" src="./assets/edit.png" width="1280" />
+
 **Members:**
 
 - Li Tianchu
